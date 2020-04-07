@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(mobilebg.png);
+    background-size: cover;
+    font-family: Gabriola, Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+nav a{
+    font-size: 2.1rem;
+    text-decoration: none;
+    color: rgb(32, 31, 31);
+}
+nav a:hover{
+    color: blueviolet;
+}
+.links{
+    padding-top: 3%;
+}
+.center{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.text{
+    color: white;
+}
+.text h1{
+    font-size: 2.3rem;
+}
+.text p{
+    font-size: 1.2rem;
+}
+.coolbtn{
+    background-image: linear-gradient(to right, blue, maroon);
+    height: 40px;
+    width: 28%;
+    color: wheat;
+    margin-top: 1%;
+}
+.coolbtn:hover{
+    background-image: linear-gradient(to right, red, rgb(49, 61, 66));
+}
+@media (max-width: 1000px) {
+    nav a{
+        padding: 14px;
+        font-size: 1.3rem;
+    }
+    .links{
+        padding-top: 0.7%;
+    }
+    .center{
+        margin-top: 30%;
+    }
+}
